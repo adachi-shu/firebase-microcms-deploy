@@ -4,6 +4,7 @@ import { client } from "../libs/client";
 export default function Home({ fire }) {
   return (
     <div>
+      <h1>git test deploy</h1>
       <ul>
         {fire.map((fire) => (
           <li key={fire.id}>
