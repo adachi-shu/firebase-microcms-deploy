@@ -1,7 +1,7 @@
 name: Deploy
-on:
-  repository_dispatch:
-    types: [update_post]
+on: [push]
+#   repository_dispatch:
+#     types: [update_post]
 jobs:
   deploy:
     runs-on: ubuntu-latest
